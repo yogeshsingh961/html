@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Forms in html</title>
+       <meta charset="utf-8">
+       <meta name="keywords" content="html,html basics">
+       <meta name="description" content="this is basic html tuturial">
+       <meta name="author" content="Yogesh Singh">
+    </head>
+    <body>
+
+       <form autocomplete="off" action="form.php" method="POST" >
+        <h4>General Details</h4>
+        <div>
+         <label for="fullname:">fullname</label> <br>
+         <input type="text" name="fullname" placeholder="Enter fullname" required >
+        </div>
+        <div>
+            <label for="email:">email</label> <br>
+            <input type="email" name="emailAddress">
+        </div>
+
+        <div>
+            <label for="MobNo:">mobNo</label> <br>
+            <input type="number" name="mobNo" pattern="">
+           </div>
+        <div>
+            <label for="username:">username</label> <br>
+            <input type="text" name="username" value="yogeshsingh961" readonly>
+        </div>
+        <div>
+            <label for="password:">passwprd</label> <br>
+            <input type="password" name="password" placeholder="Enter password">
+        </div>
+
+        <div>
+            <label for="gender:">gender:</label> <br>
+           Male:  <input type="radio" name="gender" checked>
+           Female:  <input type="radio" name="gender">
+        </div>
+        <div>
+            <label for="subjects":">subjects:</label> <br>
+           html:  <input type="checkbox" name="html"> 
+           css:  <input type="checkbox" name="css">
+           js:  <input type="checkbox" name="js">
+        </div>
+        <div>
+            <input type="date"> <br>
+             <input type="datetime-local"> <br>
+             <input type="week"> <br>
+             <input type="time"> <br>
+             <input type="range"> <br>
+        </div>
+
+        <div>
+            <label for="subject">choose a subject</label>
+            <select name="subject" id="sub">
+            <option value="html">html</option> 
+            <option value="css">css</option>
+            <option value="js">js</option> 
+        </select> 
+       
+        </div>
+        <div>
+            <label for="address">address</label> <br>
+            <textarea name="text" id="" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset" disabled>
+
+        </div> 
+       </form>
+      
+      
+    </body>
+</html> 

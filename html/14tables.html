@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Tables in html</title>
+       <meta charset="utf-8">
+       <meta name="keywords" content="html,html basics">
+       <meta name="description" content="this is basic html tuturial">
+       <meta name="author" content="Yogesh Singh">
+       <style>
+        table,td,th{
+             border: 1px solid black;  /* //OR write in table tag in body itself <table border="1"> */
+             border-collapse: collapse;  /* remove double border */
+             text-align: center;
+             border-color: red;
+             color:blue
+            }
+       </style>
+    </head>
+    <body>
+       <!-- create 4 roes and 3 columns -->
+
+      <table>
+        <caption>table1</caption>
+        <tr>
+             <th >Name</th> <!-- <th colspan="2">Name</th>  -->
+            <th>Age</th>
+            <th>Location</th>
+           </tr>
+           <tr>
+            <td>Yogesh</td>
+            <td>24</td>
+            <td>GKP</td>
+           </tr>
+           <tr>
+            <td>Rajesh</td>
+            <td>25</td>
+            <td>HYD</td>
+           </tr>
+           <tr>
+            <td>Vivan</td>
+            <td>18</td>
+            <td>BSB</td>
+           </tr>
+      </table>
+    </body>
+</html>
